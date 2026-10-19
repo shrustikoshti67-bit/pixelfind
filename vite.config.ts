@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // For GitHub Pages: set base to your repo name
-  base: '/PixelFind/',
+  base: '/pixelfind/',
   build: {
     outDir: 'dist',
     rollupOptions: {
